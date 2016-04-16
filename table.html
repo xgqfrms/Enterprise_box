@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>认识table表标签</title>
+</head>
+<body>
+<table border="1">
+  <caption>caption1</caption>
+  <colgroup>
+        <col span="2" style="background-color:red">
+        <col style="background-color:yellow">
+    </colgroup>
+  <thead>
+      <tr>
+      <th>班级</th>
+      <th>学生数</th>
+      <th>平均成绩</th>
+    </tr>
+  </thead>
+   <tfoot>
+      <tr>
+      <th>sum</th>
+      <th>65</th>
+      <th>87</th>
+      </tr>
+   </tfoot>
+  <tbody>
+    <tr>
+      <td>一班</td>
+      <td>30</td>
+      <td>89</td>
+    </tr>
+    <tr>
+      <td>二班</td>
+      <td>35</td>
+      <td>85</td>
+    </tr>
+  </tbody>
+</table>
+<!--
+sublime text3 emmet online_edit ?
+快捷键
+多光标操作
+缩进
+...
+-->
+
+<!--
+http://www.runoob.com/html/html-tables.html
+HTML 表格标签:
+-->
+
+<!--
+caption 标签定义及使用说明
+
+<caption> 标签定义表格的标题。
+<caption> 标签必须直接放置到 <table> 标签之后。
+您只能对每个表格定义一个标题。
+-->
+
+<!--
+thead 标签定义及使用说明
+
+<thead> 标签用于组合 HTML 表格的表头内容。
+
+<thead> 元素应该与 <tbody> 和 <tfoot> 元素结合起来使用，用来规定表格的各个部分（表头、主体、页脚）。
+
+通过使用这些元素，使浏览器有能力支持独立于表格表头和表格页脚的表格主体滚动。当包含多个页面的长的表格被打印时，表格的表头和页脚可被打印在包含表格数据的每张页面上。
+
+<thead> 标签必须被用在以下情境中：作为 <table> 元素的子元素，出现在 <caption>、<colgroup> 元素之后，<tbody>、 <tfoot> 和 <tr> 元素之前。
+提示和注释
+
+注释：<thead> 元素内部必须包含一个或者多个 <tr> 标签。
+
+提示：<thead>、<tbody> 和 <tfoot> 元素默认不会影响表格的布局。不过，您可以使用 CSS 来为这些元素定义样式，从而改变表格的外观。
+-->
+
+<!--
+colgroup 标签定义及使用说明
+
+<colgroup> 标签用于对表格中的列进行组合
+，以便对其进行格式化。
+通过使用 <colgroup> 标签，可以向整个列应用样式，
+而不需要重复为每个单元格或每一行设置样式。
+注释：只能在 <table> 元素之内，在任何一个 <caption> 元素之后，在任何一个 <thead>、<tbody>、<tfoot>、<tr> 元素之前使用 <colgroup> 标签。
+提示：如果想对 <colgroup> 中的某列定义不同的属性，请在 <colgroup> 标签内使用 <col> 标签。
+-->
+
+<!--
+col 标签定义及使用说明
+
+<col> 标签规定了 <colgroup> 元素内部的每一列的列属性。
+通过使用 <col> 标签，可以向整个列应用样式，
+而不需要重复为每个单元格或每一行设置样式。
+-->
+
+<!--
+tbody 标签定义及使用说明
+
+<tbody> 标签用于组合 HTML 表格的主体内容。
+<tbody> 元素应该与 <thead> and <tfoot> 元素结合起来使用，用来规定表格的各个部分（主体、表头、页脚）。
+通过使用这些元素，使浏览器有能力支持独立于表格表头和表格页脚的表格主体滚动。当包含多个页面的长的表格被打印时，表格的表头和页脚可被打印在包含表格数据的每张页面上。
+<tbody> 标签必须被用在以下情境中：作为 <table> 元素的子元素，出现在 <caption>、<colgroup> 和 <thead> 元素之后。
+提示和注释
+注释：<tbody> 元素内部必须包含一个或者多个 <tr> 标签。
+提示：<thead>、<tbody> 和 <tfoot> 元素默认不会影响表格的布局。不过，您可以使用 CSS 来为这些元素定义样式，从而改变表格的外观。
+-->
+
+<!--
+tfoot 标签定义及使用说明
+
+<tfoot> 标签用于组合 HTML 表格的页脚内容。
+<tfoot> 元素应该与 <thead> 和 <tbody> 元素结合起来使用，用来规定表格的各个部分（页脚、表头、主体）。
+通过使用这些元素，使浏览器有能力支持独立于表格表头和表格页脚的表格主体滚动。当包含多个页面的长的表格被打印时，表格的表头和页脚可被打印在包含表格数据的每张页面上。
+<tfoot> 标签必须被用在以下情境中：作为 <table> 元素的子元素，出现在 <caption>、<colgroup> 和 <thead> 元素之后，
+
+<tfoot>  ???????    <tbody> 和 <tr> 元素之前 ???????
+
+提示和注释
+注释：<tfoot> 元素内部必须包含一个或者多个 <tr> 标签。
+提示：<thead>、<tbody> 和 <tfoot> 元素默认不会影响表格的布局。不过，您可以使用 CSS 来为这些元素定义样式，从而改变表格的外观。
+-->
+
+</body>
+</html>
+
