@@ -7,6 +7,7 @@
 body{
 	/*background-color: #f5f5f5;*/
 	background-color: #000000;
+	color: rgba(0,255,0,1);
 }
 .top{
 	width: 100%;
@@ -60,6 +61,80 @@ body{
 	font-size: 2rem;
 	color: rgba(191, 39, 174, 0.76);
 }
+.top_content p::selection{
+	color: rgba(0, 255,0, 1);
+}
+.wrap {
+	width: 1000px;
+	margin: 0 auto;
+}
+.logo{
+	height: 80px;
+	background-color: #ffffff;
+}
+.l_logo{
+	width: 375px;
+	display: inline;
+	float: left;
+}
+.r_logo{
+	width: 300px;
+	height: 28px;
+	float: right;
+	margin-top: 30px;
+	color: #8E8E8E;
+}
+.r_logo img{
+	/*display: inline-block;*/
+	/*block; ? inline-block;*/
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.tel{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #C00;
+}
+.tel::selection{
+    color: rgba(0,255,0,1);
+    /*cursor: pointer;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*js 获取 system font-family*/
 /*
 <family-name>
