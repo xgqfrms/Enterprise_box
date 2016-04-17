@@ -63,6 +63,7 @@ body{
 }
 .top_content p::selection{
 	color: rgba(0, 255,0, 1);
+	/**/
 }
 .wrap {
 	width: 1000px;
@@ -99,11 +100,43 @@ body{
     color: rgba(0,255,0,1);
     /*cursor: pointer;*/
 }
-
-
-
-
-
+.nav{
+	clear: both;
+/*	width: 1000px;
+	height: 40px;*/
+	background-color: #ff00ff;
+}
+.l_nav,.m_nav,.r_nav{
+	height: 40px;
+	float: left;
+}
+.l_nav{
+	width: 10px;
+	background: url(images/nav_left.jpg) no-repeat;
+}
+.m_nav{
+	width: 980px;
+	background: url(iamges/nav_bg.jpg) repeat-x;
+}
+.r_nav{
+	width: 10px;
+	background: url(images/nav_right.jpg) no-repeat;
+}
+.l_m_nav,.r_m_nav{
+	float: left;
+	width: 300px;
+}
+.l_m_nav{
+    width: 680px;
+}
+.l_m_nav li{
+	float: left;
+	/*margin:auto 10px;*/
+	list-style-type: none;
+	width: 100px;
+	text-align: center;
+	line-height: 40px;
+}
 
 
 
