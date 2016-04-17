@@ -104,7 +104,7 @@ body{
 	clear: both;
 /*	width: 1000px;
 	height: 40px;*/
-	background-color: #ff00ff;
+	/*background-color: #ff00ff;*/
 }
 .l_nav,.m_nav,.r_nav{
 	height: 40px;
@@ -116,7 +116,7 @@ body{
 }
 .m_nav{
 	width: 980px;
-	background: url(iamges/nav_bg.jpg) repeat-x;
+	background: url(images/nav_bg.jpg) repeat-x;
 }
 .r_nav{
 	width: 10px;
@@ -137,8 +137,35 @@ body{
 	text-align: center;
 	line-height: 40px;
 }
-
-
+.l_m_nav a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+.l_m_nav a:hover{
+	text-decoration: none;
+	color: #0f0;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+.search_bar,.search_icon{
+	/*margin-top: 5px;*/
+	margin: 5px 0 0 0;
+	float: left;
+}
+.search_bar{
+	width: 190px;
+	height: 25px;
+	border-right: 0px;
+}
+.search_icon img{
+	width: 23px;
+	height: 23px;
+	background-color: #000;
+	margin-top: 1px;
+	border-left: 0px;
+}
 
 
 

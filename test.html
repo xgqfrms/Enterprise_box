@@ -42,12 +42,14 @@
 					</ul>
 				</div>
 				<div class="r_m_nav">
-					<form action="google.php" method="post" >
-						<input type="search" placeholder="search" />
+					<form action="https://www.google.co.jp/search?" method="get" >
+					<!-- <form action="https://www.google.com/search?" method="post" > -->
+						<input class="search_bar" type="search" name="q" placeholder="search" />
+						<div class="search_icon">
+							<a href="#"><img src="images/tool.png" alt="tool.png" title="search"></a>
+						</div>
+						<input type="submit" value="submit">
 					</form>
-					<button value="submit">
-						<img src="images/tool.png" alt="tool.png" title="search">
-					</button>
 				</div>
 			</div>
 			<div class="r_nav" alt="r_nav" title="r_nav"></div>
