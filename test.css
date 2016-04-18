@@ -158,6 +158,9 @@ body{
 	width: 190px;
 	height: 25px;
 	border-right: 0px;
+	background: url(images/search.jpg) no-repeat right center;
+	background-color: #fff;
+	padding-right: 25px;
 }
 .search_icon img{
 	width: 23px;
@@ -166,6 +169,80 @@ body{
 	margin-top: 1px;
 	border-left: 0px;
 }
+.main{
+	height: 250px;
+	background-color: #f00;
+}
+.news{
+	width: 340px;
+	border: 1px solid #e8e8e8;
+	margin: 2px 1px 2px 3px;
+}
+.course{
+	width: 410px;
+	border: 1px solid #e8e8e8;
+	margin: 2px 2px 2px 2px;
+}
+.side_bar{
+	width: 230px;
+	border: 1px solid #e8e8e8;
+	margin: 2px 3px 2px 1px;
+}
+.news,.course,.side_bar{
+	height: 100px;
+	float: left;
+	background-color: #fff;
+}
+.news li,.course li,.side_bar li{
+	list-style-type: none;
+}
+.a-c{
+    margin: auto;  
+    position: absolute;  
+    /*top: 0; left: 0; bottom: 0; right: 0;*/
+    background-color: #fedcba;
+    width: 300px;
+    height: 200px;
+    /*clear: both;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>top</title>
+	<title>Immoc Enterprise</title>
 	<link rel="stylesheet" href="test.css">
+	<link rel="stylesheet" href="js/mf-pattern/mF_kdui.css"/>
+	<!--引入风格css文件-->
 </head>
 <body>
 	<div class="top">
@@ -54,9 +56,62 @@
 			</div>
 			<div class="r_nav" alt="r_nav" title="r_nav"></div>
 		</div>
+		<div class="ad" id="boxID">
+			<div class="loading">
+				<img src="images/loading.gif" alt="" title="loading.gif" />
+			</div>
+			<div class="pic">
+				<ul>
+					<li><a href="#"><img src="images/ad2.jpg" thumb="" alt="标题1" text="详细描述1" /></a></li>
+					<li><a href="#"><img src="images/ad3.jpg" thumb="" alt="标题2" text="详细描述2" /></a></li>
+					<li><a href="#"><img src="images/ad4.jpg" thumb="" alt="标题3" text="详细描述3" /></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="main">
+			<div class="news">
+				<ul>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+				</ul>
+			</div>
+			<div class="course">
+				<ul>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+				</ul>
+			</div>
+			<div class="side_bar">
+				<ul>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+				</ul>
+			</div>
+		</div>
+		<div class="a-c">
+			<span>Absolute Centering!</span>
+		</div>
 	</div>
 	<div class="js">
 		<script src="js/setHomeSetFav.js"></script>
+		<script type="text/javascript" src="js/myfocus-2.0.1.min.js"></script>
+		<!--引入myFocus库-->
+		<script type="text/javascript" src="js/mf-pattern/mF_kdui.js"></script>
+		<!--引入风格js文件-->
+		<script>
+			myFocus.set({
+			    id:'boxID',//焦点图盒子ID
+			    pattern:'mF_kdui',//风格应用的名称
+			    time:2,//切换时间间隔(秒)
+			    trigger:'click',//触发切换模式:'click'(点击)/'mouseover'(悬停)
+			    width:1000,//设置图片区域宽度(像素)
+			    height:310,//设置图片区域高度(像素)
+			    txtHeight:'default'//文字层高度设置(像素),'default'为默认高度，0为隐藏
+			});
+		</script>
 	</div>
 	<div>
 	</div>
