@@ -177,6 +177,7 @@ body{
 	width: 340px;
 	border: 1px solid #e8e8e8;
 	margin: 2px 1px 2px 3px;
+	height: 250px;
 }
 .course{
 	width: 410px;
@@ -196,18 +197,62 @@ body{
 .news li,.course li,.side_bar li{
 	list-style-type: none;
 }
-.a-c{
-    margin: auto;  
-    position: absolute;  
-    /*top: 0; left: 0; bottom: 0; right: 0;*/
-    background-color: #fedcba;
-    width: 300px;
-    height: 200px;
-    /*clear: both;*/
+.news a:link,a:visited{
+	text-decoration: none;
+	color: #000;
+}
+.news a:hover,a:active{
+	text-decoration: none;
+	color: #0f0;
+}
+.n_title{
+	height: 35px;
+	border-bottom: 2px solid #E8E8E8;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	line-height: 35px;
+	font-weight: bold;
+	color: #786F66;
+}
+.n_title h2{
+	float: left;
+	padding-left: 20px;
+	width: 50%;
+}
+.n_title span{
+	float: right;
+	width: 30%;
+	text-align: right;
+	font-weight: normal;
+    padding-right: 20px;
+}
+.n_pic{
+	height: 80px;
+	margin-top: 10px;
+	line-height: 22px;
+}
+.n_pic img{
+	float: left;
+    margin: 0 5px;
+	width: 113px;
+	height: 77px;
+	/**/
+}
+.n_pic h2,p{
+	padding-left: 5px;
 }
 
+.n_list{
+	margin-top: 20px;
+}
 
-
+.n_list li{
+	list-style-type: none;
+	background: url(images/list.jpg) no-repeat;
+	padding-left: 10px;
+	margin: 8px;
+	border-bottom: 1px dotted #ccc;
+}
 
 
 
